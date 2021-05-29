@@ -44,7 +44,7 @@ a:hover {
 
 /*-----------------------MENU------------------------*/
 
-.menu {
+/*.menu {
 	position: relative;
 	width: 20px;
 	height: 20px;
@@ -85,7 +85,7 @@ a:hover {
 	top: 0px;
 	transform: rotate(-45deg);
 }
-
+*/
 /*---------------------------------HEADER---------------------------*/
 
 .header {
@@ -139,7 +139,7 @@ a:hover {
 
 .food-logo {
 	height: 100%;
-	background: url(../img/traktir/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png) center center;
+	background: url(../img/main/02.jpeg) center center;
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -374,7 +374,6 @@ a:hover {
 /*-----------------------SELECT------------------------*/
 
 option {
-
 	font-size: 16px;
 }
 
@@ -467,8 +466,8 @@ option {
 	}
 	.catalog-row {
 		width: 100%;
-		max-height: 102px;
-		margin: 32px 0 10px 0;
+		max-height: 100px;
+		margin: 20px 0 10px 0;
 	}
 
 	.catalog__image {
@@ -478,7 +477,7 @@ option {
 	.catalog__images {
 		width: 102px;
 		height: 102px;
-		background-size: cover;
+		
 	}
 
 	.scroll-up {
