@@ -22,9 +22,11 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
+
 p {
 	font-size: 16px;
 }
+
 span {
 	color: green;
 }
@@ -109,6 +111,7 @@ a:hover {
 	margin-right: 27px;
 	font-weight: 500;
 }
+
 .header__sign-in {
 	font-size: 13px;
 	color: #000;
@@ -136,6 +139,7 @@ a:hover {
 .food-search-container {
 	margin-bottom: 56px;
 }
+
 .food-search {
 	font-size: 16px;
 	padding: 2px;
@@ -167,6 +171,7 @@ a:hover {
 .food-item__wrapper:hover{
 	background-color: #e8e8e8;
 }
+
 .food-item__image-container{
 	position: relative;
 	padding-bottom: 70%;
@@ -183,6 +188,7 @@ a:hover {
 	object-fit: cover;
 	transition: 0.3s;
 }
+
 .food-item__image:hover{
 	transform: scale(1.1);
 }
@@ -193,6 +199,7 @@ a:hover {
 	line-height: 20px;
 	margin-bottom: 4px;
 }
+
 .food-item__category {
 	font-size: 14px;
 	line-height: 20px;
@@ -348,23 +355,29 @@ a:hover {
 /*----------------------------------MEDIA--------------------------------*/
 
 @media (max-width: 767px ){
+
 	.food-item{
 		width: calc(100% / 2);
 	}
+
 	.footer-row {
 		width: 100%;
 	}
+
 	.footer-group {
 		flex-direction: column;
 	}
+
 	.footer-social {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.footer-row__text {
 		text-align: center;
 	}
+
 	.footer-row__elements {
 		text-align: center;
 		margin-bottom: 20px;
@@ -373,23 +386,29 @@ a:hover {
 }
 
 @media (max-width: 425px){
+
 	.food-item {
 		width: 100%;
 	}
+
 	.footer-row {
 	width: 100%;
 	}
+
 	.footer-group {
 		flex-direction: column;
 	}
+
 	.footer-social {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.footer-row__text {
 		text-align: center;
 	}
+
 	.footer-row__elements {
 		text-align: center;
 		margin-bottom: 20px;
@@ -400,6 +419,7 @@ a:hover {
 	.catalog-container {
 		margin: 0;
 	}
+
 	.catalog-row {
 		width: 100%;
 		margin: 32px 0 10px 0;
