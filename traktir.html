@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/styletraktir.css">
 	<title>UBER EATS</title>
 </head>
@@ -31,9 +32,47 @@
 				</div>
 		</header>
 		<section class="food">
-			<div class="food-logo">
-				<div class="container">
-					<div class="food-name">
+			<!-- <div class="food-logo"> -->
+				<!-- <div class="container"> -->
+					<!-- Slider main container -->
+					<div class="swiper-container swiper-food">
+					  <!-- Additional required wrapper -->
+					  <div class="swiper-wrapper">
+					    <!-- Slides -->
+					    <div class="swiper-slide food-slide">
+					    	<div class="container">
+					    		<div class="food-name">
+								<div class="food-title">
+									Трактир «Пушкин»
+								</div>
+								<div class="food-subtitle">
+									<div class="food-price">₽₽₽ • Европейская</div>
+									<div class="food-time-container">
+										<p class="food-time">30 - 45 мин</p>
+									</div>
+								</div>
+							</div>
+					    	</div>
+					    	<img class="food-slide__img" src="img/main/cinnabon.png" alt="">
+					    </div>
+					    <div class="swiper-slide food-slide">
+					    	<img class="food-slide__img" src="img/main/dvijok.png" alt="">
+					    </div>
+					    <div class="swiper-slide food-slide">
+					    	<img class="food-slide__img" src="img/main/zcafe.png" alt="">
+					    </div>
+					   
+					  </div>
+					  <!-- If we need pagination -->
+					  <div class="swiper-pagination"></div>
+
+					  <!-- If we need navigation buttons -->
+					  <div class="swiper-button-prev"></div>
+					  <div class="swiper-button-next"></div>
+
+			
+					</div>
+					<!-- <div class="food-name">
 						<div class="food-title">
 							Трактир «Пушкин»
 						</div>
@@ -41,12 +80,12 @@
 							<div class="food-price">₽₽₽ • Европейская</div>
 							<div class="food-time-container">
 								<p class="food-time">30 - 45 мин</p>
-								<!-- <img src="img/traktir/Rectangle 3.png" alt="" class="food-time__image"> -->
+								<img src="img/traktir/Rectangle 3.png" alt="" class="food-time__image">
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
+					</div> -->
+				<!-- </div> -->
+			<!-- </div> -->
 		</section>
 		<section class="nav">
 			<div class="nav-menu">
@@ -204,7 +243,7 @@
 
 	</div>
 </body>
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
 	const rootElement = document.documentElement;
 	const scrollToTopBtn = document.getElementById("scrollToTopBtn");
@@ -228,5 +267,26 @@
 
 	scrollToTopBtn.addEventListener("click", scrollToTop)
 
+
+	const swiper = new Swiper('.swiper-container', {
+  // Optional parameters
+ 
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+
 </script>
+
 </html>
