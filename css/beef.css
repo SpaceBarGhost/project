@@ -354,10 +354,21 @@ a:hover {
 	padding-top: 20px;
 }
 
+.icons {
+	margin: 0 5px;
+	transition: 0.3s;
+}
+
+.icons:hover {
+	background-color: #57ad56;
+	transform: scale(1.2);
+}
+
 .footer-row__title {
 	display: flex;
 	flex-direction: column;
 	line-height: 35px;
+	padding-top: 20px;
 }
 
 .footer-row__text {
@@ -372,6 +383,12 @@ a:hover {
 
 .markets {
 	padding: 0 10px;
+	transition: 0.3s;
+}
+
+.markets:hover {
+	padding: 0 10px;
+	transform: scale(1.1);
 }
 
 .footer-end {
@@ -443,6 +460,7 @@ option {
 /*-----------------------MEDIA------------------------*/
 
 @media (max-width: 767px) {
+	
 	.food-title {
 		font-size: 24px;
 	}
@@ -471,7 +489,7 @@ option {
 
 	.footer-row__elements {
 			text-align: center;
-			margin-bottom: 20px;
+			/*margin-bottom: 20px;*/
 	}
 
 }
@@ -510,7 +528,7 @@ option {
 		flex-direction: column;
 		align-items: center;
 		min-width: 304px;
-		bottom: -55px;
+		bottom: -87px;
 		top: auto;
 		transform: translateY(0);
 		padding: 0;
@@ -543,10 +561,10 @@ option {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 100px 0 40px 0;
+		padding: 140px 0 40px 0;
 	}
 
-	.catalog-name__line {
+	.catalog-name__line .footer-row__line{
 		padding: 0;
 		border: 1px solid #757575;
 		width: 50px;
@@ -562,7 +580,7 @@ option {
 		max-height: 100px;
 		margin: 8px 0;
 		border: 0;
-		border-bottom: 1px solid #757575;
+		border-bottom: 1px solid #7d7d7d;
 	}
 
 	.catalog__title {
@@ -584,6 +602,15 @@ option {
 
 	.footer__market {
 		padding: 20px 0;
+	}
+
+	.footer-group {
+
+	}
+
+	.footer-end {
+		display: flex;
+		justify-content: flex-start;
 	}
 
 	.scroll-up {
