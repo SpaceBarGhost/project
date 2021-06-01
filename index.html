@@ -147,10 +147,12 @@
 						<div class="footer-row">
 							<div class="footer-row__elements">
 								<div class="select-container">
-									<p>Русский</p>
+									<!-- <p>Выберите язык</p> -->
 									<select>
 									   <option value="Русский">Русский</option>
-								    </select>
+									   <option value="Английский">Английский</option>
+									   <option value="Украинский">Украинский</option>
+								   </select>
 								</div>
 									
 								<div class="footer-social">
@@ -212,29 +214,6 @@
 
 </body>
 
-<script>
-	const rootElement = document.documentElement;
-	const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-
-	const scrollToTop = () => {
-		rootElement.scrollTo({
-   			top: 0,
-    		behavior: "smooth"
- 		 })
-	}
-
-	window.addEventListener('scroll', function(e) {
-		const windowOffset = window.scrollY;
-
-		if (windowOffset < 300) {
-			scrollToTopBtn.classList.add("hide");
-		} else {
-			scrollToTopBtn.classList.remove("hide");
-		}
-	});
-
-	scrollToTopBtn.addEventListener("click", scrollToTop)
-
-</script>
+<script src="scroll.js"></script>
 
 </html>
