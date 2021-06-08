@@ -523,10 +523,12 @@ option {
 		display: none;
 	}
 
+
 	.food-name {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		width: 95%;
 		min-width: 304px;
 		bottom: -87px;
 		top: auto;
