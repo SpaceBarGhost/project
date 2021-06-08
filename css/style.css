@@ -309,6 +309,9 @@ a:hover {
 }
 
 /*-----------------------SELECT------------------------*/
+option {
+	font-size: 16px;
+}
 
 .select-container {
 	position: relative;
@@ -328,7 +331,7 @@ a:hover {
 	width: 100%;
 	height: 100%;
 	background: transparent;
-	color: transparent;
+	color: #fff;
 }
 
 .select-container p {
