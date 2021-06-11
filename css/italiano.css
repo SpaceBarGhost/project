@@ -355,12 +355,12 @@ a:hover {
 }
 
 .icons {
-	margin: 0 5px;
-	transition: 0.3s;
+	transition: 0.3s
 }
 
 .icons:hover {
-	background-color: #57ad56;
+	background-color: #327430;
+	border-radius: 5px;
 	transform: scale(1.2);
 }
 
