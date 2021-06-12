@@ -105,6 +105,11 @@ a:hover {
 	box-shadow: none;
 }
 
+.modal__icon {
+	width: 25px;
+	height: 25px;
+}
+
 /*---------------------------------HEADER---------------------------*/
 
 .header {

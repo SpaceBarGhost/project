@@ -86,6 +86,28 @@ a:hover {
 	transform: rotate(-45deg);
 }
 */
+/*------------------------------Other---------------------------*/
+
+.btn-group-lg>.btn, .btn-lg {
+	padding: 5px 10px 5px 10px;
+	font-size: 14px;
+	background-color: transparent;
+	color: #000;
+}
+
+.btn-success.focus, .btn-success:focus {
+	box-shadow: none;
+}
+
+.btn.focus, .btn:focus {
+	box-shadow: none;
+}
+
+.modal__icon {
+	width: 25px;
+	height: 25px;
+}
+
 /*---------------------------------HEADER---------------------------*/
 
 .header {
